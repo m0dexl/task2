@@ -10,7 +10,7 @@ const Home = () => {
       <Navbar></Navbar>
       <section className="py-28 px-20">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[30px] max-w-sm mx-auto sm:max-w-none sm:mx-0">
             {Data.map((product) => {
               return <Product product={product} key={product.name} />;
             })}

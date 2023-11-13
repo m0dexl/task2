@@ -10,7 +10,7 @@ const Navbar = () => {
     // </div>
     <div>
       <nav className="shadow-md w-full fixed top-0 left-0">
-        <div className="md:flex items-center justify-between bg-white py-4 px-20">
+        <div className="flex items-center justify-between bg-white py-4 px-20">
           <div className="text-2xl cursor-pointer flex items-center gap-1">
             <h2 className="font-montserrat">MY JEWELRY STORE</h2>
           </div>
